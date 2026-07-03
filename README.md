@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Professional visual mind mapping tool</strong><br/>
-  <sub>Import markdown. Export anywhere. Think visually.</sub>
+  <sub>Import markdown · Export anywhere · Think visually</sub>
 </p>
 
 <p align="center">
@@ -15,32 +15,29 @@
   <a href="https://github.com/officialnullobjectweb/mindmap-studio/actions"><img src="https://img.shields.io/github/actions/workflow/status/officialnullobjectweb/mindmap-studio/release.yml?style=flat-square&label=build" alt="Build"></a>
 </p>
 
----
-
-## Demo
-
-<video src="https://github.com/officialnullobjectweb/mindmap-studio/raw/main/public/mindmap-studio.mp4" controls width="100%"></video>
-
----
-
-## Install
+<br/>
 
 <p align="center">
-  <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-aarch64.dmg">
-    <img src="https://img.shields.io/badge/-Download%20macOS%20(Apple%20Silicon)-1D1D1F?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Apple Silicon"/>
-  </a>
-  <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-x64.dmg">
-    <img src="https://img.shields.io/badge/-Download%20macOS%20(Intel)-1D1D1F?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Intel"/>
-  </a>
-  <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-windows.exe">
-    <img src="https://img.shields.io/badge/-Download%20Windows-1D1D1F?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
-  </a>
-  <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-linux.AppImage">
-    <img src="https://img.shields.io/badge/-Download%20Linux-1D1D1F?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
-  </a>
+  <img src="public/mindmap-studio-ezgif.com-speed.gif" width="100%" alt="MindMap Studio Demo"/>
 </p>
 
-Or visit the **[Releases](https://github.com/officialnullobjectweb/mindmap-studio/releases/latest)** page to see all available files.
+<br/>
+
+---
+
+## Download
+
+<p align="center">
+
+| Platform | Installer |
+|----------|-----------|
+| **macOS (Apple Silicon)** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-aarch64.dmg"><img src="https://img.shields.io/badge/Download-macOS%20Apple%20Silicon-1D1D1F?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Apple Silicon"/></a> |
+| **macOS (Intel)** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-x64.dmg"><img src="https://img.shields.io/badge/Download-macOS%20Intel-1D1D1F?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Intel"/></a> |
+| **Windows** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-windows.exe"><img src="https://img.shields.io/badge/Download-Windows%20.exe-1D1D1F?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/></a> |
+| **Linux (AppImage)** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-linux.AppImage"><img src="https://img.shields.io/badge/Download-Linux%20AppImage-1D1D1F?style=for-the-badge&logo=linux&logoColor=white" alt="Linux AppImage"/></a> |
+| **Linux (Debian)** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-linux.deb"><img src="https://img.shields.io/badge/Download-Linux%20.deb-1D1D1F?style=for-the-badge&logo=debian&logoColor=white" alt="Linux DEB"/></a> |
+
+</p>
 
 ---
 
@@ -48,14 +45,14 @@ Or visit the **[Releases](https://github.com/officialnullobjectweb/mindmap-studi
 
 | Feature | Description |
 |---------|-------------|
-| **Markdown Import** | Paste any markdown list → instant mind map |
-| **Export Formats** | HTML, SVG, PNG, JPG, PDF, JSON |
-| **Color Wheel** | Full HSL picker with hex input |
+| **Markdown Import** | Paste any markdown list and get an instant mind map |
+| **Export Formats** | HTML · SVG · PNG · JPG · PDF · JSON |
+| **Color Wheel** | Full HSL color picker with hex code input |
 | **15+ Shapes** | Rectangle, Rounded, Circle, Diamond, Pill, Hexagon, Cloud, Star, and more |
-| **Dark / Light Theme** | One-click theme toggle |
-| **Drag & Drop** | Drag shapes from panel onto canvas |
-| **Collapse Nodes** | Hide children for step-by-step views |
-| **Keyboard Shortcuts** | `N` `Del` `⌘Z` `⌘D` `⌘A` `L` |
+| **Dark / Light Theme** | One-click theme toggle with smooth transitions |
+| **Drag & Drop** | Drag shapes from the panel onto the canvas |
+| **Collapse Nodes** | Hide child nodes for step-by-step walkthroughs |
+| **Keyboard Shortcuts** | `N` · `Del` · `⌘Z` · `⌘D` · `⌘A` · `L` |
 
 ---
 
