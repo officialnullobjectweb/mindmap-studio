@@ -31,8 +31,8 @@
 
 | Platform | Installer |
 |----------|-----------|
-| **macOS (Apple Silicon)** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/download/v1.0.0/mindmap-studio_1.0.0_aarch64.dmg"><img src="https://img.shields.io/badge/Download-macOS%20Apple%20Silicon-1D1D1F?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Apple Silicon"/></a> |
-| **macOS (Intel)** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/download/v1.0.0/mindmap-studio_1.0.0_x64.dmg"><img src="https://img.shields.io/badge/Download-macOS%20Intel-1D1D1F?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Intel"/></a> |
+| **macOS (Apple Silicon)** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/download/v1.0.0/mindmap-studio_1.0.0_x64.dmg"><img src="https://img.shields.io/badge/Download-macOS%20Apple%20Silicon-1D1D1F?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Apple Silicon"/></a> |
+| **macOS (Intel)** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/download/v1.0.0/mindmap-studio_1.0.0_aarch64.dmg"><img src="https://img.shields.io/badge/Download-macOS%20Intel-1D1D1F?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Intel"/></a> |
 | **Windows** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/download/v1.0.0/mindmap-studio_1.0.0_x64-setup.exe"><img src="https://img.shields.io/badge/Download-Windows%20.exe-1D1D1F?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/></a> |
 | **Linux (AppImage)** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/download/v1.0.0/mindmap-studio_1.0.0_amd64.AppImage"><img src="https://img.shields.io/badge/Download-Linux%20AppImage-1D1D1F?style=for-the-badge&logo=linux&logoColor=white" alt="Linux AppImage"/></a> |
 | **Linux (Debian)** | <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/download/v1.0.0/mindmap-studio_1.0.0_amd64.deb"><img src="https://img.shields.io/badge/Download-Linux%20.deb-1D1D1F?style=for-the-badge&logo=debian&logoColor=white" alt="Linux DEB"/></a> |
