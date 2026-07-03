@@ -33,6 +33,22 @@ jobs:
       - uses: Swatinem/rust-cache@v2
       - name: Build Tauri
         run: npx tauri build --target ${{ matrix.target }}
+      - name: Ad-hoc sign the app
+        run: |
+          APP_PATH=$(find src-tauri/target/${{ matrix.target }}/release/bundle/macos -name "*.app" -type d | head -1)
+          if [ -n "$APP_PATH" ]; then
+            echo "Signing: $APP_PATH"
+            codesign --force --deep --sign - "$APP_PATH"
+            echo "Signed successfully"
+          fi
+      - name: Sign the DMG
+        run: |
+          DMG_PATH=$(find src-tauri/target/${{ matrix.target }}/release/bundle/dmg -name "*.dmg" | head -1)
+          if [ -n "$DMG_PATH" ]; then
+            echo "Signing DMG: $DMG_PATH"
+            codesign --force --sign - "$DMG_PATH"
+            echo "DMG signed"
+          fi
       - name: Upload DMG
         uses: actions/upload-artifact@v4
         with:
