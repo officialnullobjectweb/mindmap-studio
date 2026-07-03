@@ -19,7 +19,7 @@
 
 ## Demo
 
-https://github.com/officialnullobjectweb/mindmap-studio/blob/main/public/mindmap-studio.mp4
+<video src="https://github.com/officialnullobjectweb/mindmap-studio/raw/main/public/mindmap-studio.mp4" controls width="100%"></video>
 
 ---
 
