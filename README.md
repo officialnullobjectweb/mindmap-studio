@@ -1,73 +1,78 @@
-# MindMap Studio
+<p align="center">
+  <img src="public/icon-64.png" width="80" alt="MindMap Studio Icon"/>
+</p>
 
-A professional visual mind mapping tool built with Next.js and Tauri.
+<h1 align="center">MindMap Studio</h1>
 
-![MindMap Studio Preview](public/preview.svg)
+<p align="center">
+  <strong>Professional visual mind mapping tool</strong><br/>
+  <sub>Import markdown. Export anywhere. Think visually.</sub>
+</p>
 
-## Download
+<p align="center">
+  <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest"><img src="https://img.shields.io/github/v/release/officialnullobjectweb/mindmap-studio?style=flat-square&color=6366f1" alt="Release"></a>
+  <a href="https://github.com/officialnullobjectweb/mindmap-studio/blob/main/LICENSE"><img src="https://img.shields.io/github/license/officialnullobjectweb/mindmap-studio?style=flat-square" alt="License"></a>
+  <a href="https://github.com/officialnullobjectweb/mindmap-studio/actions"><img src="https://img.shields.io/github/actions/workflow/status/officialnullobjectweb/mindmap-studio/release.yml?style=flat-square&label=build" alt="Build"></a>
+</p>
 
-Grab the latest release for your platform:
+---
 
-| Platform | Download | Size |
-|----------|----------|------|
-| **macOS (Apple Silicon)** | [mindmap-studio-aarch64.dmg](https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-aarch64.dmg) | ~5 MB |
-| **macOS (Intel)** | [mindmap-studio-x64.dmg](https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-x64.dmg) | ~5 MB |
-| **Windows** | [mindmap-studio-windows.exe](https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-windows.exe) | ~8 MB |
-| **Linux (AppImage)** | [mindmap-studio-linux.AppImage](https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-linux.AppImage) | ~10 MB |
-| **Linux (Debian)** | [mindmap-studio-linux.deb](https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-linux.deb) | ~8 MB |
+## Demo
+
+https://github.com/officialnullobjectweb/mindmap-studio/blob/main/public/mindmap-studio.mov
+
+---
+
+## Install
+
+<p align="center">
+  <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-aarch64.dmg">
+    <img src="https://img.shields.io/badge/-Download%20macOS%20(Apple%20Silicon)-1D1D1F?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Apple Silicon"/>
+  </a>
+  <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-x64.dmg">
+    <img src="https://img.shields.io/badge/-Download%20macOS%20(Intel)-1D1D1F?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Intel"/>
+  </a>
+  <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-windows.exe">
+    <img src="https://img.shields.io/badge/-Download%20Windows-1D1D1F?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
+  </a>
+  <a href="https://github.com/officialnullobjectweb/mindmap-studio/releases/latest/download/mindmap-studio-linux.AppImage">
+    <img src="https://img.shields.io/badge/-Download%20Linux-1D1D1F?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
+  </a>
+</p>
+
+Or visit the **[Releases](https://github.com/officialnullobjectweb/mindmap-studio/releases/latest)** page to see all available files.
+
+---
 
 ## Features
 
-- **5+ Shape Types**: Rectangle, Rounded, Circle, Diamond, Pill, Hexagon, and more
-- **Markdown Import**: Paste markdown lists to create mind maps instantly
-- **Multiple Export Formats**: HTML, SVG, PNG, JPG, PDF, JSON
-- **Color Wheel**: Full HSL color picker with presets
-- **Dark/Light Theme**: Toggle between themes
-- **Keyboard Shortcuts**: `N` Add, `Del` Delete, `⌘Z` Undo, `⌘D` Duplicate, `⌘A` Select All
-- **Drag & Drop**: Drag shapes from panel to canvas
-- **Collapse/Expand**: Hide child nodes for step-by-step views
-- **Auto Layout**: Automatic node arrangement
-- **Right-Click Menu**: Context-aware actions
-- **Multi-Select**: Ctrl+Click, Shift+Drag, Ctrl+A
+| Feature | Description |
+|---------|-------------|
+| **Markdown Import** | Paste any markdown list → instant mind map |
+| **Export Formats** | HTML, SVG, PNG, JPG, PDF, JSON |
+| **Color Wheel** | Full HSL picker with hex input |
+| **15+ Shapes** | Rectangle, Rounded, Circle, Diamond, Pill, Hexagon, Cloud, Star, and more |
+| **Dark / Light Theme** | One-click theme toggle |
+| **Drag & Drop** | Drag shapes from panel onto canvas |
+| **Collapse Nodes** | Hide children for step-by-step views |
+| **Keyboard Shortcuts** | `N` `Del` `⌘Z` `⌘D` `⌘A` `L` |
 
-## Quick Start
-
-### Web Version
-Visit [mindmap-studio.vercel.app](https://mindmap-studio.vercel.app)
-
-### Desktop App
-1. Download the installer for your platform from the releases page
-2. Run the installer
-3. Open MindMap Studio
-
-### Development
-
-```bash
-# Install dependencies
-npm install
-
-# Run in development mode (web)
-npm run dev
-
-# Run in development mode (desktop)
-npm run tauri:dev
-
-# Build for current platform
-npm run tauri:build
-```
+---
 
 ## Keyboard Shortcuts
 
 | Key | Action |
 |-----|--------|
 | `N` | Add new node |
-| `Del` / `Backspace` | Delete selected |
+| `Del` | Delete selected |
 | `⌘Z` | Undo |
 | `⌘⇧Z` | Redo |
 | `⌘D` | Duplicate |
 | `⌘A` | Select all |
 | `L` | Auto layout |
 | `Esc` | Cancel / deselect |
+
+---
 
 ## Tech Stack
 
@@ -76,9 +81,29 @@ npm run tauri:build
 | Frontend | Next.js, React, Tailwind CSS |
 | Canvas | React Flow |
 | State | Zustand |
-| Desktop | Tauri 2 (Rust) |
+| Desktop | Tauri 2 + Rust |
 | Export | html-to-image, jsPDF |
+
+---
+
+## Development
+
+```bash
+# Install
+npm install
+
+# Run (web)
+npm run dev
+
+# Run (desktop)
+npm run tauri:dev
+
+# Build desktop app
+npm run tauri:build
+```
+
+---
 
 ## License
 
-MIT © FRAMD Studio
+[MIT](https://github.com/officialnullobjectweb/mindmap-studio/blob/main/LICENSE) — FRAMD Studio
